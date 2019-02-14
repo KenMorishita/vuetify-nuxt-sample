@@ -1,0 +1,40 @@
+{
+  "name": "vuetify-nuxt-sample",
+  "version": "1.0.0",
+  "description": "My breathtaking Nuxt.js project",
+  "author": "Kentaro Morishita",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@types/webpack": "^4.4.24",
+    "cross-env": "^5.2.0",
+    "nuxt-ts": "^2.4.3",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "vue-property-decorator": "^7.3.0",
+    "vuetify": "^1.5.1",
+    "vuetify-loader": "^1.2.0",
+    "vuex-class": "^0.3.1"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.9",
+    "prettier": "1.14.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "tslint-config-standard": "^8.0.1",
+    "vue-jest": "^3.0.2"
+  }
+}
